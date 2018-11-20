@@ -1,0 +1,28 @@
+<ion-popover-view class="fit">
+  <ion-header-bar style="margin-top: 10px">
+    <h1 class="title">全部状态</h1>
+    <div class="buttons">
+      <button class="button button-icon icon button-light ion-ios-arrow-up " ng-click='closePop()'></button>
+    </div>
+  </ion-header-bar>
+  <ion-content class="sr-bg">
+    <div class="item row row-wrap height-120">
+      <div class="col col-25 col-center text-center" ng-click="choose(0)">
+        dash
+      </div>
+      <div class="col col-25 col-center text-center" ng-click="choose(1)">
+        chat
+      </div>
+      <div class="col col-25 col-center text-center" ng-click="choose(2)">
+        account
+      </div>
+      <div class="col col-25 col-center text-center" ng-click="choose(3)">
+        user
+      </div>
+      <div class="col col-25 col-center text-center" ng-click="choose(4)">
+        home
+      </div>
+    </div>
+  </ion-content>
+  <div class="modal-backdrop-bg" style="top: 200px"></div>
+</ion-popover-view>

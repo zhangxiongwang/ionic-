@@ -1,0 +1,58 @@
+/* Empty. Add your own CSS if you like */
+.scroll-tab .badge{
+  right: 0 !important;
+}
+.scroll-tab .tabs{
+  float: left !important;
+  display: inline-block;
+  white-space: nowrap;/*规定段落中的文本不进行换行*/
+  overflow-x:scroll;/*水平方向，超出部分添加滚动机制*/
+  overflow-y:hidden;/*竖直方向，超出部分隐藏*/
+}
+/*控制tab的大小，用来显示tabs的滑动效果*/
+.scroll-tab .tab-item{
+  flex: 0 0 auto;
+  display: inline-block;
+  width: 80px;
+}
+
+.scroll-tab span.tab-title{
+  display: block;
+  width: 80px;
+  height: 49px;
+}
+/*tabs的箭头样式*/
+.tab-icon{
+  height: 48px;
+  position: absolute;
+  right: 5px;
+  width: 8%;
+  top: 44px;
+  z-index: 9999;
+  align-items: center;
+  display: flex;
+  font-size: 28px;
+}
+/*tabs的popover样式*/
+ion-popover-view.fit {
+  height: 164px;
+  left: 0 !important;
+  width: 100%;
+  top: 68px !important;
+  background: white !important;
+  border-radius: 0 !important;
+  box-shadow: none !important;
+}
+
+ion-popover-view.fit h1 {
+  font-size: 16px !important;
+  color: #4a4a4a !important;
+  font-weight: 400 !important;
+}
+
+.height-120{
+  height: 120px;
+}
+ion-popover-view.fit ion-content .item{
+  background-color: white !important;
+}
